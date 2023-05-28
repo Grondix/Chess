@@ -107,10 +107,6 @@ public class Board implements ColorChangeListener, MoveListener, GetActiveTile {
         currentActive.getButton().setBackground(GREEN);
     }
     public void boardPreset(){ //method for placing pieces at the start of the game
-        grid[3][2].setImage(new ImageIcon(getClass().getResource("pieces\\bBishop.png")));
-        grid[3][2].setPieceType(4);
-        grid[3][2].setPieceColor(1);
-
         grid[0][0].setImage(new ImageIcon(getClass().getResource("pieces\\bRook.png")));
         grid[0][0].setPieceType(2);
         grid[0][1].setImage(new ImageIcon(getClass().getResource("pieces\\bKnight.png")));
